@@ -6,9 +6,9 @@ public class Geometry {
         int a = sc.nextInt();
         System.out.println("Enter the edge b: ");
         int b = sc.nextInt();
-        euclid(a, b);
+        pythagorean(a, b);
     }
-    public static void euclid(int a, int b) {
+    public static void pythagorean(int a, int b) {
         int c = (int) Math.sqrt(a*a + b*b);
         int area = (a * b) / 2;
         int perimeter = a+b+c;
